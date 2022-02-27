@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 6px;
+}
+.conteiner{
+    width: 200px;
+    background-color: darkgray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px black;
+}
+body{
+    background-color:blanchedalmond;
+}
+.c{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:white
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+img{
+    width: 150px;
+}
