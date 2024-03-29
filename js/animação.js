@@ -44,7 +44,7 @@ function createPokemonCard(pokemon) {
         <h2>${name}</h2>
         <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png" alt="${name}">
         <h3>#${id}</h3>
-        <small><span>${pokemonTypes[0]}</span><span>${pokemonTypes[1] !== undefined ? pokemonTypes[1] : ''}</</small>
+        <small><span>${pokemonTypes[0]}</span class="${pokemonTypes[0]}"><span>${pokemonTypes[1] !== undefined ? pokemonTypes[1] : ''}</</small>
     `
     card.innerHTML = pokemonInnerHTML;
     pokemonContainer.appendChild(card);
